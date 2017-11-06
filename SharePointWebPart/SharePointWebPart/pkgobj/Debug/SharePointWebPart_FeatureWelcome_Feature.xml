@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="SharePointWebPart Feature1" Id="38e3a564-d795-464e-8190-f7bb42b6f505" Scope="Site">
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="38e3a564-d795-464e-8190-f7bb42b6f505" Scope="Site" Title="SharePointWebPart Feature1">
   <ElementManifests>
     <ElementManifest Location="VisualWebPartWelcome\Elements.xml" />
     <ElementFile Location="VisualWebPartWelcome\VisualWebPartWelcome.webpart" />

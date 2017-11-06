@@ -81,3 +81,4 @@ C:\Users\tzhang1\source\repos\SharePointWebPart\SharePointWebPart\bin\Debug\zh-H
 C:\Users\tzhang1\source\repos\SharePointWebPart\SharePointWebPart\obj\Debug\SharePointWebPart.csproj.CoreCompileInputs.cache
 C:\Users\tzhang1\source\repos\SharePointWebPart\SharePointWebPart\obj\Debug\SharePointWebPart.dll
 C:\Users\tzhang1\source\repos\SharePointWebPart\SharePointWebPart\obj\Debug\SharePointWebPart.pdb
+C:\Users\tzhang1\source\repos\SharePointWebPart\SharePointWebPart\obj\Debug\SharePointWebPart.csprojResolveAssemblyReference.cache

@@ -17,6 +17,7 @@ namespace SharePointWebPart.VisualWebPartWelcome
         {
             lblWelcome.Text = string.Format("welcome! {0}.", SPContext.Current.Web.CurrentUser.Name);
             GetField();
+            GetListItem();
 
         }
         /// <summary>
@@ -41,9 +42,20 @@ namespace SharePointWebPart.VisualWebPartWelcome
             var list = context.Web.Lists["MyChartList"];
             foreach(SPListItem listitem in list.Items)
             {
-                newText += listitem[0].ToString()+ listitem[1].ToString()+"\r\n";
+                newText += listitem["Title"].ToString()+ listitem["Count"].ToString()+"\r\n";
             }
             TextBox2.Text = newText;
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            var context = SPContext.Current;
+            var list = context.Web.Lists["MyChartList"];
+            var newitem = list.AddItem();
+            newitem["Title"] = "Books";
+            newitem["Count"] = 10;
+            newitem["MyGroup"] = "GroupsB";
+            list.Update();
         }
     }
 }
