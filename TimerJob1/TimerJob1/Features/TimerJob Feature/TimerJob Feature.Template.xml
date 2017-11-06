@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/"
+   Description="CustomerTimeJob"
+   Hidden="False"
+   Version="1.0.0.0"
+   Title="CustomerTimeJob Feature"
+   Id="2742b8aa-4c78-4030-8d21-62f673d2f097"
+   Scope="Site"
+   ReceiverAssembly="TimerJob1,Version=1.0.0.0,Culture=neutral,PublicKeyToken=2c2bc605a1c91075"
+   ReceiverClass="TimerJob1.CustomTimerJobInstall"
+   AlwaysForceInstall="TRUE"
+         >
+</Feature>

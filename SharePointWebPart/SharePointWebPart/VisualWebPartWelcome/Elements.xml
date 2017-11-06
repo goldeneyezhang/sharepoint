@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="VisualWebPartWelcome" List="113" Url="_catalogs/wp">
+    <File Path="VisualWebPartWelcome\VisualWebPartWelcome.webpart" Url="SharePointWebPart_VisualWebPartWelcome.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>
